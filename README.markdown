@@ -2,7 +2,7 @@ goldeen
 =======
 
 goldeen is an implementation of Bruce Schneier's [Blowfish algorithm][0], a 64-bit block cipher designed in 1994.
-You can find all the details about the the way the encryption is done in the previous link.
+You can find all the details about the way the encryption is done in the previous link.
 
 Installation
 ------------
