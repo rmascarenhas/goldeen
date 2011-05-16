@@ -306,30 +306,5 @@ main(int argc, char* argv[]) {
 	free(msg);
 
 
-	/*char key[56];
-	byte_t text[255];
-	byte_t* cipher, *plain_text;
-
-	printf("Content: ");
-	scanf("%[^\n]s", text);
-	getchar();
-
-	printf("Key: ");
-	scanf("%[^\n]s", key);
-	getchar();
-
-	int i, cipher_length;
-	
-	cipher_length = encrypt(key, text, &cipher);
-	
-	for (i = 0; i < cipher_length; ++i) {
-		printf("%02x", cipher[i]);
-	}
-
-	printf("\n\nDecrypt:\n");
-	decrypt(key, cipher, cipher_length, &plain_text);
-	
-	printf("%s\n", plain_text);*/ 
-
 	return 0;
 }
