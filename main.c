@@ -235,6 +235,8 @@ main(int argc, char* argv[]) {
 			scanf("%1024[^\n]s", msg);
 			getchar();
 
+			cipher_length = strlen((char*) msg)/2;
+
 			make_byte_array(msg, input);
 		}
 	
