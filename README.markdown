@@ -42,8 +42,8 @@ Two basic functions:
 Caveats
 -------
 
-* goldeen acts the same way for both little endian and big endian architectures. I have no time to work on this right now, so if you want help, you can submit a patch with the necessary adaptations. :-)
-
+* goldeen acts the same way for both little endian and big endian architectures. I have no time to work on this right now, so if you want help, feel free to send a pull request. :-)
+ 
 License
 -------
 
