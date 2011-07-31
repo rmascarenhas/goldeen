@@ -36,7 +36,7 @@ Two basic functions:
 * `-h` | `--help`					-		prints help message and finishes
 * `-i` | `--input` `<inputfile>`	-		takes `inputfile` as the content to be encrypted/decrypted. Otherwise, you will be prompted.
 * `-o` | `--output` `<outputfile>`	-		writes the output of the algorithm to `<outputfile>`. Otherwise, `stdout` will be used.
-* `-k` | `--key-file` `<keyfile>`	-		If this option is passed, goldeen will used the content of `<keyfile>` as the key to the algorithm (56 bytes at most). 
+* `-k` | `--key-file` `<keyfile>`	-		If this option is passed, goldeen will use the content of `<keyfile>` as the key to the algorithm (56 bytes at most). 
 											If the file is bigger, only the first 56 bytes will be considered
 
 Caveats
